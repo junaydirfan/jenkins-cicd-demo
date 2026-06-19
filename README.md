@@ -2,7 +2,7 @@
 
 A minimal end-to-end CI/CD project: every push to GitHub triggers a Jenkins
 pipeline that builds a Docker image of a small Python (Flask) app and pushes
-it to DockerHub.
+it to DockerHub registry.
 
 ## Architecture
 
