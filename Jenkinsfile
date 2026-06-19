@@ -13,7 +13,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/junaid-cicd-demo"
+        IMAGE_NAME = "jaynius/junaid-cicd-demo"
         IMAGE_TAG  = "${BUILD_NUMBER}"
     }
 
